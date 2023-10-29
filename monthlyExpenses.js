@@ -21,8 +21,8 @@ const options = { month: "long" };
 expencesExamples.map((example) => {
   const monthlyExpenses = [];
   example.yearlyExpences.map((value, index) => {
-    const date = new Date().getMonth();
-    const month = new Date(date, index).toLocaleString("locale", options);
+    const date = new Date(value, index);
+    const month = date.toLocaleString("locale", options);
     if (value <= 1000) {
       return monthlyExpenses.push(`${month}: ${value}`);
     }
