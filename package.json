@@ -1,0 +1,27 @@
+{
+  "name": "first_nodejs_project",
+  "version": "1.0.0",
+  "description": "First node.js project for learning purpose",
+  "main": "expenses.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luchiana73/JS-4.git"
+  },
+  "keywords": [
+    "test",
+    "functions"
+  ],
+  "author": "Svetlana Gorodetskaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luchiana73/JS-4/issues"
+  },
+  "homepage": "https://github.com/Luchiana73/JS-4#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
