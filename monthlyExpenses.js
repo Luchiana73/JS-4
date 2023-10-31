@@ -18,7 +18,7 @@ let expencesExamples = [
 
 const options = { month: "long" };
 
-expencesExamples.map((example) => {
+expencesExamples.forEach((example) => {
   const monthlyExpenses = [];
   example.yearlyExpences.map((value, index) => {
     const date = new Date(value, index);
