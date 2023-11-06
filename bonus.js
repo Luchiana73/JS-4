@@ -6,9 +6,10 @@ const calculateBonus = (a, b) => {
   sum > 50 ? (bonus = 50) : (bonus = sum);
   debugger;
   /*Выполняется тернарный оператор, который работает аналогично условию if..else.
-  Проверяется условие sum > 50, если условие истинно, то переменной bonus присваивается значение 50, 
-  если условие ложно, то bonus = sum*/
-
+        Проверяется условие sum > 50, если условие истинно, то переменной bonus присваивается значение 50, 
+        если условие ложно, то bonus = sum*/
   return bonus;
 };
-calculateBonus(25, 15);
+console.log(calculateBonus(25, 15));
+
+module.exports = calculateBonus;
